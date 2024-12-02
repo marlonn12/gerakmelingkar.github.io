@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #0f7ce2;
+    background-color: turquoise;
+}
+
+#playButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#levelText, #scoreText, #topScoreText {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#changeDirectionButton {
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
